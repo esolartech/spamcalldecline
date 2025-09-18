@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BB98ED4WSE"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){ dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'G-BB98ED4WSE');
+            </script>
+ <!-- Hotjar Tracking Code for Site 6487405 (name missing) -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:6487405,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Smart Call Decline - Never Miss a Lead While on the Job | Contractor Lead Capture</title>
+    <meta name="description" content="Auto-reply SMS and job booking automation for contractors. Save time on site, capture more leads, and book jobs faster with no-app scheduling.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'contractor-navy': '#1E3A8A',
+                        'contractor-orange': '#F97316',
+                        'contractor-light-blue': '#EFF6FF',
+                        'contractor-gray': '#6B7280'
+                    }
+                }
+            }
+        }
+    </script>
+            <!-- If not already present somewhere in <head> -->
+          
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+            <style>
+              body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+              .phone{width:360px;max-width:92vw;height:740px;max-height:92vh;border-radius:36px;background:#000;box-shadow:0 16px 40px rgba(2,6,23,.25);position:relative;overflow:hidden;border:10px solid #000;}
+              .notch{position:absolute;top:0;left:50%;transform:translateX(-50%);width:160px;height:26px;background:#000;border-bottom-left-radius:16px;border-bottom-right-radius:16px;z-index:10;}
+              .phone-inner{position:absolute;inset:8px;background:#fff;border-radius:28px;overflow:hidden;}
+              .bubble{max-width:80%;border-radius:18px;padding:.5rem .75rem;box-shadow:0 2px 6px rgba(2,6,23,.05);}
+              .bubble-agent  { background:#1E3A8A; color:#fff; }   /* contractor navy */
+              .bubble-caller { background:#e5e7eb; color:#111827; }/* light gray */
+            </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%); }
+        .hover-lift { transition: transform 0.2s ease; }
+        .hover-lift:hover { transform: translateY(-2px); }
+        .sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; z-index: 50; }
+        .fade-in { opacity: 0; transform: translateY(30px); animation: fadeIn 0.8s ease forwards; }
+        @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+        .step-number { 
+            background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 24px;
+            margin: 0 auto 16px;
+        }
+    </style>
+</head>
+<body class="bg-white">
+     <body class="overflow-x-clip"> <!-- or overflow-x-hidden if clip not available -->
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <div class="text-2xl font-bold text-contractor-navy">Smart Call Decline</div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="/home#how-it-works" class="text-contractor-gray hover:text-contractor-navy px-3 py-2 rounded-md text-sm font-medium">How It Works</a>
+                        <a href="/home#benefits" class="text-contractor-gray hover:text-contractor-navy px-3 py-2 rounded-md text-sm font-medium">Benefits</a>
+                        <div class="relative group">
+                            <button class="text-contractor-gray hover:text-contractor-navy px-3 py-2 rounded-md text-sm font-medium flex items-center">
+                                Demo
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div class="absolute left-0 mt-2 w-32 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                                <a href="/demo" class="block px-4 py-2 text-sm text-contractor-gray hover:bg-contractor-light-blue hover:text-contractor-navy rounded-t-md">English</a>
+                                <a href="/demo-es" class="block px-4 py-2 text-sm text-contractor-gray hover:bg-contractor-light-blue hover:text-contractor-navy">Español</a>
+                        
+                            </div>
+                        </div>
+                        <a href="/home#faq" class="text-contractor-gray hover:text-contractor-navy px-3 py-2 rounded-md text-sm font-medium">FAQ</a>
+                    </div>
+                                       </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-contractor-gray hover:text-contractor-navy">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+   
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
+                    <a href="#how-it-works" class="text-contractor-gray hover:text-contractor-navy block px-3 py-2 rounded-md text-base font-medium">How It Works</a>
+                    <a href="#benefits" class="text-contractor-gray hover:text-contractor-navy block px-3 py-2 rounded-md text-base font-medium">Benefits</a>
+                    <a href="demo.html" class="text-contractor-gray hover:text-contractor-navy block px-3 py-2 rounded-md text-base font-medium">Demo</a>
+                    <a href="#faq" class="text-contractor-gray hover:text-contractor-navy block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
+                    <a href="#pricing" class="bg-contractor-orange text-white block px-3 py-2 rounded-md text-base font-medium">Get Early Access</a>
+                    <a href="#voiceagent" class="bg-contractor-orange text-white block px-3 py-2 rounded-md text-base font-medium">VoiceAgent</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero Section — SPAM / Unwanted Calls -->
+<section class="bg-gradient-to-br from-[#325ef1] to-[#2272ff] relative isolate overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+
+      <!-- LEFT: Headline + Stepper -->
+      <div class="text-white">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Stop wasting time on <span id="heroSpamSavings" class="tabular-nums">$1,600</span> worth of
+          SPAM, SALES & WRONG-NUMBER calls
+        </h1>
+
+        <p class="text-xl mb-8 text-blue-100">
+          Your AI call screener filters junk in seconds, blocks time-wasters, and only lets real customers through.
+        </p>
+
+        <!-- Stepper card -->
+        <div class="relative mt-8 w-full max-w-xl rounded-2xl overflow-hidden shadow-lg
+                    ring-1 ring-white/20 bg-white/10 px-6 py-5">
+          <div class="pointer-events-none absolute inset-x-0 top-0 h-32 md:h-36
+                      backdrop-blur-[8px] [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
+
+          <ol role="list" class="relative space-y-4 md:space-y-5 text-white">
+            <div class="pointer-events-none absolute left-3 top-0 h-full w-px bg-white/20 md:left-3.5"></div>
+
+            <li class="relative flex items-start gap-3 md:gap-4">
+              <span class="z-10 inline-flex h-7 w-7 md:h-8 md:w-8 shrink-0 items-center justify-center
+                           rounded-full bg-white/15 ring-1 ring-white/30 font-semibold">1</span>
+              <div class="text-base md:text-[1.05rem] font-medium leading-snug">
+                Ring → AI screens in ≤12s (CNAM, patterns, blacklist)
+              </div>
+            </li>
+
+            <li class="relative flex items-start gap-3 md:gap-4">
+              <span class="z-10 inline-flex h-7 w-7 md:h-8 md:w-8 shrink-0 items-center justify-center
+                           rounded-full bg-white/15 ring-1 ring-white/30 font-semibold">2</span>
+              <div class="text-base md:text-[1.05rem] font-medium leading-snug">
+                Suspected spam? Auto-block or divert to voicemail
+              </div>
+            </li>
+
+            <li class="relative flex items-start gap-3 md:gap-4">
+              <span class="z-10 inline-flex h-7 w-7 md:h-8 md:w-8 shrink-0 items-center justify-center
+                           rounded-full bg-white/15 ring-1 ring-white/30 font-semibold">3</span>
+              <div class="text-base md:text-[1.05rem] font-medium leading-snug">
+                Real customer? Collects job + ZIP, then passes through
+              </div>
+            </li>
+
+            <li class="relative flex items-start gap-3 md:gap-4">
+              <span class="z-10 inline-flex h-7 w-7 md:h-8 md:w-8 shrink-0 items-center justify-center
+                           rounded-full bg-white/15 ring-1 ring-white/30 font-semibold">4</span>
+              <div class="text-base md:text-[1.05rem] font-medium leading-snug">
+                Text + email summary so you can focus on paying work
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- RIGHT: Spam cost calculator -->
+      <aside class="w-full">
+        <div class="w-full max-w-md lg:ml-auto lg:mr-0 rounded-2xl overflow-hidden shadow-lg
+                    bg-white text-blue-900 px-6 py-5">
+          <header class="text-left mb-4 md:mb-6">
+            <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-blue-700">
+              Monthly Time Lost to SPAM
+            </h2>
+            <p class="mt-2 text-base md:text-lg text-slate-600 leading-relaxed">
+              Filter junk instantly → save hours → focus on real jobs.
+            </p>
+          </header>
+
+          <!-- Blue calculator panel -->
+          <section id="spamCalc"
+                   class="rounded-2xl bg-gradient-to-r from-contractor-navy to-blue-600 p-5 md:p-7 text-white">
+
+            <!-- Spam calls per day -->
+            <div>
+              <label for="spamPerDay"
+                     class="flex items-center justify-between font-semibold text-white text-xl md:text-1xl">
+                <span>Spam / junk calls per day</span>
+                <span id="spamPerDayVal" class="tabular-nums opacity-90 text-xl md:text-1xl">2</span>
+              </label>
+              <input id="spamPerDay" type="range" min="0" max="20" step="1" value="2">
+            </div>
+
+            <!-- Avg duration -->
+            <div class="mt-5">
+              <label for="avgMinutes"
+                     class="flex items-center justify-between font-semibold text-white text-xl md:text-1xl">
+                <span>Average minutes wasted</span>
+                <span id="avgMinutesVal" class="tabular-nums opacity-90 text-xl md:text-1xl">5 min</span>
+              </label>
+              <input id="avgMinutes" type="range" min="1" max="20" step="1" value="5">
+            </div>
+
+            <!-- Hourly rate -->
+            <div class="mt-5">
+              <label for="hourlyRate"
+                     class="flex items-center justify-between font-semibold text-white text-xl md:text-1xl">
+                <span>Your time value (hourly)</span>
+                <span id="hourlyRateVal" class="tabular-nums opacity-90 text-xl md:text-1xl">$100</span>
+              </label>
+              <input id="hourlyRate" type="range" min="25" max="300" step="5" value="100">
+            </div>
+
+            <!-- Work days -->
+            <div class="mt-5">
+              <label for="workDaysSpam"
+                     class="flex items-center justify-between font-semibold text-white text-xl md:text-1xl">
+                <span>WorkDays per month</span>
+                <span id="workDaysSpamVal" class="tabular-nums opacity-90 text-xl md:text-1xl">20</span>
+              </label>
+              <input id="workDaysSpam" type="range" min="2" max="26" step="1" value="20">
+            </div>
+
+            <!-- Result box -->
+            <div class="mt-6 rounded-xl border border-white/30 bg-white/10 backdrop-blur p-4 sm:p-5">
+              <div class="flex items-center justify-between gap-4">
+                <div class="text-white font-bold text-2xl leading-tight flex items-start shrink-0">
+                  <span>Potential<br>Time & Money<br>Wasted</span>
+                  <span class="relative group ml-2">
+                    <sup class="relative -top-1 inline-flex items-center justify-center w-4 h-4 rounded-full
+                               border border-white/70 text-[10px] leading-none text-white/90 cursor-help"
+                         title="Formula: spam/day × workdays × (minutes÷60) × hourly rate">i</sup>
+                  </span>
+                </div>
+                <div class="flex flex-col items-end sm:text-right text-white shrink-0" aria-live="polite">
+                  <strong id="spamTotalWaste" class="text-3xl font-extrabold tabular-nums">$1,600</strong>
+                  <span id="spamHours" class="mt-1 text-sm text-white/90 leading-tight">≈ 16 hours/mo</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slider cosmetics (reuse your orange/white style) -->
+            <style>
+              #spamCalc input[type="range"]{ width:100%; margin-top:.5rem; }
+              #spamCalc input[type="range"]{
+                -webkit-appearance:none; appearance:none;
+                --track-h: 12px; --fill:#F97316; --empty:#FFFFFF; --r:9999px;
+                height: var(--track-h);
+                background:
+                  linear-gradient(90deg,var(--fill),var(--fill)) 0/ var(--sx,0%) 100% no-repeat,
+                  var(--empty);
+                border-radius: var(--r);
+                outline: none;
+              }
+              #spamCalc input[type="range"]::-webkit-slider-runnable-track{ height:var(--track-h); background:transparent!important; border-radius:var(--r); }
+              #spamCalc input[type="range"]::-webkit-slider-thumb{
+                -webkit-appearance:none; width:22px; height:22px; border-radius:50%;
+                background: var(--fill); border:3px solid #fff; box-shadow:0 0 0 2px rgba(0,0,0,.08);
+                margin-top: calc((var(--track-h) - 22px)/2);
+              }
+              #spamCalc input[type="range"]::-moz-range-track{ height:var(--track-h); background:var(--empty)!important; border-radius:var(--r); }
+              #spamCalc input[type="range"]::-moz-range-progress{ height:var(--track-h); background:var(--fill)!important; border-radius:var(--r); }
+              #spamCalc input[type="range"]::-moz-range-thumb{
+                width:22px; height:22px; border-radius:50%;
+                background: var(--fill); border:3px solid #fff; box-shadow:0 0 0 2px rgba(0,0,0,.08);
+              }
+            </style>
+
+            <!-- Logic -->
+            <script>
+              (function(){
+                const $ = id => document.getElementById(id);
+                const fmtUSD = new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
+
+                const spam   = $('spamPerDay');
+                const mins   = $('avgMinutes');
+                const rate   = $('hourlyRate');
+                const days   = $('workDaysSpam');
+
+                const spamV  = $('spamPerDayVal');
+                const minsV  = $('avgMinutesVal');
+                const rateV  = $('hourlyRateVal');
+                const daysV  = $('workDaysSpamVal');
+
+                const total  = $('spamTotalWaste');
+                const hours  = $('spamHours');
+                const hero   = document.getElementById('heroSpamSavings'); // optional headline sync
+
+                const sliders = [spam, mins, rate, days];
+
+                function paint(el){
+                  const min = +el.min || 0, max = +el.max || 100, val = +el.value || 0;
+                  el.style.setProperty('--sx', ((val - min) * 100) / (max - min) + '%');
+                }
+
+                function render(){
+                  spamV.textContent = +spam.value;
+                  minsV.textContent = `${+mins.value} min`;
+                  rateV.textContent = fmtUSD.format(+rate.value);
+                  daysV.textContent = +days.value;
+
+                  const totalMinutes = (+spam.value) * (+days.value) * (+mins.value);
+                  const totalHours   = totalMinutes / 60;
+                  const moneyWasted  = totalHours * (+rate.value);
+
+                  total.textContent  = fmtUSD.format(moneyWasted);
+                  hours.textContent  = `≈ ${Math.round(totalHours*10)/10} hours/mo`;
+                  if (hero) hero.textContent = fmtUSD.format(moneyWasted);
+
+                  sliders.forEach(paint);
+                }
+
+                sliders.forEach(el => el.addEventListener('input', render));
+                sliders.forEach(paint);
+                render();
+              })();
+            </script>
+          </section>
+
+          <!-- Buttons -->
+          <div class="mt-6 pt-5 border-t border-slate-200/70">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+              <a href="#scd-demo"
+                 class="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white
+                        bg-blue-600 hover:bg-blue-700 shadow-md">Watch Demo</a>
+              <a href="#pricing"
+                 class="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white
+                        bg-orange-500 hover:bg-orange-600 shadow-md">Get Early Access</a>
+            </div>
+            <p class="mt-3 text-center text-xs text-slate-500">Beta capped at 20 contractors</p>
+            <p class="mt-1 text-center text-xs text-slate-500">No app to install • Works with your current number • Cancel anytime</p>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+                                         <!-- How It Works — Voice Assistant -->
+                                    <section id="voice-assistant" class="py-20 bg-white">
+                                      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                                        <div class="text-center mb-16">
+                                          <h2 class="text-3xl md:text-4xl font-bold text-contractor-navy mb-4">
+                                            How It Works — Voice Assistant
+                                          </h2>
+                                          <p class="text-xl text-contractor-gray max-w-2xl mx-auto">
+                                            Books jobs while you’re on a ladder — same tone as the owner, under 60 seconds.
+                                          </p>
+                                        </div>
+                                    
+                                        <div class="grid md:grid-cols-3 gap-8">
+                                          <!-- Step 1 -->
+                                          <div class="text-center fade-in">
+                                            <div class="step-number">1</div>
+                                            <h3 class="text-xl font-semibold text-contractor-navy mb-4">Answers Like the Owner</h3>
+                                            <div class="bg-white rounded-lg shadow-md p-6 mb-4">
+                                              <div class="text-4xl mb-2">📞</div>
+                                              <div class="text-xs text-center bg-blue-100 p-3 rounded">
+                                                <p class="font-medium">
+                                                  “Hey, it’s ABC HVAC's voice assistant. We’re on a ladder right now—mind if I take down your information?”
+                                                </p>
+                                              </div>
+                                            </div>
+                                            <ul class="text-left text-contractor-gray mx-auto max-w-sm space-y-2">
+                                              <li>• Captures job type + ZIP.</li>
+                                              <li>• If speech recognition fails twice → SMS booking link, ends politely.</li>
+                                            </ul>
+                                          </div>
+                                    
+                                          <!-- Step 2 -->
+                                          <div class="text-center fade-in" style="animation-delay: .2s;">
+                                            <div class="step-number">2</div>
+                                            <h3 class="text-xl font-semibold text-contractor-navy mb-4">Offers Times & Books</h3>
+                                            <div class="bg-white rounded-lg shadow-md p-6 mb-4">
+                                              <div class="text-4xl mb-2">🗓️</div>
+                                              <p class="text-sm text-contractor-navy font-medium">
+                                                Presents the next 2–3 time windows
+                                              </p>
+                                              <p class="text-xs text-contractor-gray">Confirms slot, then summarizes details.</p>
+                                            </div>
+                                            <ul class="text-left text-contractor-gray mx-auto max-w-sm space-y-2">
+                                              <li>• Estimate Request - Always set as high priority, and sends you an high priority text.</li>
+                                              <li>• Always confirms<span class="font-semibold text-contractor-navy"> Date, Time, and Address</span> before booking.</li>
+                                            </ul>
+                                          </div>
+                                    
+                                          <!-- Step 3 -->
+                                          <div class="text-center fade-in" style="animation-delay: .4s;">
+                                            <div class="step-number">3</div>
+                                            <h3 class="text-xl font-semibold text-contractor-navy mb-4">Confirms & Notifies</h3>
+                                            <div class="bg-white rounded-lg shadow-md p-6 mb-4">
+                                              <div class="text-4xl mb-2">📩</div>
+                                              <p class="text-sm text-contractor-navy font-medium">Texts the confirmation link instantly</p>
+                                              <p class="text-xs text-contractor-gray">Syncs to your calendar/CRM with notes.</p>
+                                            </div>
+                                            <p class="text-contractor-gray">Sends a reminder so you can review during breaks.</p>
+                                          </div>
+                                        </div>
+                                    
+                                        <div class="text-center mt-12">
+                                          <p class="text-lg text-contractor-gray mb-6">
+                                            Keeps answers under 12 seconds. No small talk. Call-to-book typically &lt; 60 seconds.
+                                          </p>
+                                          <div class="flex flex-col sm:flex-row gap-1 justify-center">
+                                            <a href="#pricing"
+                                               class="inline-flex items-center justify-center rounded-lg px-6 py-3 font-semibold text-white
+                                                      bg-contractor-orange hover:bg-orange-600 shadow-lg">
+                                              Get Early Access
+                                            </a>
+                                            <a href="#scd-demo"
+                                               class="inline-flex items-center justify-center rounded-lg px-6 py-3 font-semibold text-white
+                                                      bg-blue-600 hover:bg-blue-700 shadow-lg">
+                                              Watch DEMO
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
+                                    
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-contractor-navy mb-4">Why Contractors Love This</h2>
+                <p class="text-xl text-contractor-gray max-w-2xl mx-auto">Save 1-2 hours per week while capturing more leads and looking professional.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-6 bg-contractor-light-blue rounded-lg fade-in">
+                    <div class="text-4xl mb-4">⏰</div>
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-2">Recapture Lost Time</h3>
+                    <p class="text-contractor-gray">No more 15-minute interruptions. Handle leads efficiently during planned breaks.</p>
+                </div>
+                
+                <div class="text-center p-6 bg-contractor-light-blue rounded-lg fade-in" style="animation-delay: 0.1s;">
+                    <div class="text-4xl mb-4">🎯</div>
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-2">Professional First Impression</h3>
+                    <p class="text-contractor-gray">Customers feel heard and respected with instant, courteous responses.</p>
+                </div>
+                
+                <div class="text-center p-6 bg-contractor-light-blue rounded-lg fade-in" style="animation-delay: 0.2s;">
+                    <div class="text-4xl mb-4">📱</div>
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-2">Zero Learning Curve</h3>
+                    <p class="text-contractor-gray">No-app solution works with your existing phone and calendar. Setup once, forget it.</p>
+                </div>
+                
+                <div class="text-center p-6 bg-contractor-light-blue rounded-lg fade-in" style="animation-delay: 0.3s;">
+                    <div class="text-4xl mb-4">📋</div>
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-2">Calendar-Ready Records</h3>
+                    <p class="text-contractor-gray">Snap photos of notes or record voice memos. Everything syncs automatically.</p>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-gradient-to-r from-contractor-navy to-blue-600 rounded-lg p-8 text-white text-center">
+                <h3 class="text-2xl font-bold mb-4">The Bottom Line</h3>
+                <p class="text-xl mb-6">Miss fewer leads + save 1-2 hours per week + book jobs faster = more revenue without extra admin time.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <div class="bg-white bg-opacity-20 rounded-lg p-4">
+                        <div class="text-2xl font-bold">73%</div>
+                        <div class="text-sm">More leads captured</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-4">
+                        <div class="text-2xl font-bold">60-90 mins</div>
+                        <div class="text-sm">Saved per week</div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 rounded-lg p-4">
+                        <div class="text-2xl font-bold">$500-10000</div>
+                        <div class="text-sm">Extra monthly revenue</div>
+                    </div>
+                </div>
+            </div> 
+                       <div class="text-center mt-12">
+             <!--     <p class="text-lg text-contractor-gray mb-6">Complete workflow in under 2 minutes per lead</p> -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                 <a href="#pricing" class="bg-contractor-orange hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg hover-lift transition-                     all duration-200 text-center inline-block">
+                Get Early Access
+              </a>
+                          <a href="#scd-demo" 
+                 class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg hover-lift transition-all duration-200 text-center                      inline-block">
+                <span class="button-text" data-en="Watch DEMO" data-es="Ver DEMO" data-pl="Zobacz DEMO">Watch DEMO</span>
+              </a>                    
+                                      
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+               <section id="testimonials" class="py-16 bg-slate-50">
+              <div class="max-w-6xl mx-auto px-4">
+                    <div class="text-center mb-8">
+                  <h2 class="text-3xl md:text-4xl font-bold text-contractor-navy mb-2">
+                    Our Testimonials
+                  </h2>
+                  <p class="text-lg md:text-xl text-contractor-gray max-w-2xl mx-auto">
+                    See all the reasons why contractors use our solutions
+                  </p>
+                </div>
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+                          <!-- Card 1 -->
+   <div class="bg-white rounded-lg shadow-md p-8 h-full flex flex-col">
+    <div class="flex items-center mb-4">
+      <div class="w-12 h-12 bg-contractor-orange rounded-full flex items-center justify-center text-white font-bold text-lg">JJM</div>
+      <div class="ml-4">
+        <div class="font-semibold text-contractor-navy">Jeff James Smith </div>
+        <div class="text-contractor-gray text-sm">HVAC Technician</div>
+      </div>
+    </div>
+    <div class="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
+    <p class="text-contractor-gray italic mb-4">"I was skeptical at first, but this Voice Agent system has been a game-changer. I used to lose at least 3–4 leads per week because I couldn't answer while working on emergency repairs. Now every call gets captured professionally. My revenue has increased by 25% in just two months!"</p>
+    <div class="text-contractor-navy font-semibold mt-auto">Increased bookings by 40%</div>
+  </div>
+
+  <!-- Card 2 -->
+   <div class="bg-white rounded-lg shadow-md p-8 h-full flex flex-col">
+    <div class="flex items-center mb-4">
+      <div class="w-12 h-12 bg-contractor-orange rounded-full flex items-center justify-center text-white font-bold text-lg">SC</div>
+      <div class="ml-4">
+        <div class="font-semibold text-contractor-navy">Sandra Chen</div>
+        <div class="text-contractor-gray text-sm">Handyman Services</div>
+      </div>
+    </div>
+    <div class="text-yellow-400 mb-4">⭐⭐⭐⭐</div>
+    <p class="text-contractor-gray italic mb-4">"I was missing at least 2/3 leads a week because I couldn’t get to the phone while replacing water heaters. With Smart Call Decline, every caller gets answered by a proffessional agent, who can capture all the required information, and I never lose a lead. My bookings went up 45% in the first month". The only reason, i didnt give them a full 5 stars is because, they did'nt have the automatic texting option, which is also how my customers connect with me</p>
+    <div class="text-contractor-navy font-semibold mt-auto">Saves 2 hours weekly</div>
+  </div>
+
+  <!-- Card 3 -->
+ <div class="bg-white rounded-lg shadow-md p-8 h-full flex flex-col">
+    <div class="flex items-center mb-4">
+      <div class="w-12 h-12 bg-contractor-orange rounded-full flex items-center justify-center text-white font-bold text-lg">MR</div>
+      <div class="ml-4">
+        <div class="font-semibold text-contractor-navy">Mike Rodriguez</div>
+        <div class="text-contractor-gray text-sm">HVAC Technician</div>
+      </div>
+    </div>
+    <div class="text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
+    <p class="text-contractor-gray italic mb-4">"I almost lost $5000...It was an estimate call and because of the professional voice agent doing it, I saved $5000.  It's worth the cost!! Under $200, to save $5000, thats a no brainer."</p>
+    <div class="text-contractor-navy font-semibold mt-auto">Revenue up 25% in 2 months</div>
+  </div>
+</div>
+
+          <div class="mt-12 text-center flex justify-center gap-4">
+              <a href="#pricing" 
+                 class="bg-contractor-orange hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg hover-lift transition-all duration-200                       text-center inline-block">
+                Get Early Access
+              </a>
+            
+              <a href="#scd-demo" 
+                 class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg hover-lift transition-all duration-200 text-center                      inline-block">
+                <span class="button-text" data-en="Watch DEMO" data-es="Ver DEMO" data-pl="Zobacz DEMO">Watch DEMO</span>
+              </a>
+            </div>
+       </section>
+            <section id="phone-demo" class="py-16 border-t border-slate-200">
+                          <div class="max-w-6xl mx-auto px-4">
+
+                                    <!-- === START: Smart Call Decline — Phone Demo === -->
+                                    <section id="scd-demo" class="py-20 bg-slate-50">
+                                     <div class="max-w-6xl mx-auto px-4">
+                                        <header class="text-center mb-10">
+                                          <h2 class="text-3xl md:text-4xl font-bold text-contractor-navy mb-4">
+                                             Phone Demo - Customer in ACTION
+                                          </h2>
+                                          <p class="text-xl text-contractor-gray max-w-2xl mx-auto">Click “PLAY” to try it.</p>
+                                        </header>
+                                  
+                                        <!-- Phone frame -->
+                                       <div class="grid place-items-center">
+                                        <div class="phone">
+                                          <div class="notch"></div>
+                                          <div class="phone-inner flex flex-col">
+                                            <!-- Status bar -->
+                                            <div class="h-8 px-4 flex items-center justify-between text-[11px] text-slate-500 bg-white/80">
+                                              <span id="status">Idle</span>
+                                              <span><span id="tNow">0:00</span> / <span id="tDur">0:00</span></span>
+                                            </div>
+                                    
+                                            <!-- CALL screen (default) -->
+                                            <section id="screen-call" class="absolute inset-0 bg-gradient-to-b from-[#EFF6FF] to-white flex flex-col items-center justify-center p-6">
+                                              <div class="w-24 h-24 rounded-full bg-blue-100 text-4xl grid place-items-center mb-4">📞</div>
+                                              <div class="text-lg font-semibold text-[#1E3A8A]">Agentic Air &amp; Cooling</div>
+                                              <div class="text-sm text-slate-500 mt-1">Customer • (872) 323-4534</div>
+                                    
+                                              <div class="mt-6 h-1 w-64 max-w-[80%] bg-slate-200 rounded-full overflow-hidden">
+                                                <div id="bar" class="h-full w-0 bg-[#1E3A8A] transition-[width]"></div>
+                                              </div>
+                                    
+                                              <div class="mt-7 flex items-center gap-4">
+                                                <button id="btnPlay" class="h-14 w-14 rounded-full bg-green-500 hover:bg-green-600 text-white grid place-items-center shadow-md" aria-label="Play">▶</button>
+                                                <button id="btnStop" class="h-14 w-14 rounded-full bg-red-500 hover:bg-red-600 text-white grid place-items-center shadow-md" aria-label="End">■</button>
+                                              </div>
+                                    
+                                              <div class="mt-5 flex items-center gap-5 text-xs text-slate-600">
+                                                <label class="inline-flex items-center gap-2 select-none">
+                                                  <input id="chkMute" type="checkbox" class="rounded border-gray-300"> Mute
+                                                </label>
+                                                <label class="inline-flex items-center gap-2 select-none">
+                                                  <input id="chkBad" type="checkbox" class="rounded border-gray-300">
+                                                  Simulate bad connection*
+                                                </label>
+                                              </div>
+                                    
+                                              <p class="mt-5 text-[11px] text-slate-500 text-center px-8">
+                                                If you don’t hear sound, allow audio for this site and tap Play again.
+                                              </p>
+                                                <p class="mt-5 text-[11px] text-slate-500 text-center px-8">
+                                                *To simulate bad connection, you would need to click simulate bad connection and tap Play, to see the SMS in action.
+                                              </p>
+                                            </section>
+                                    
+                                            <!-- SMS screen -->
+                                            <section id="screen-sms" class="absolute inset-0 bg-white flex flex-col hidden">
+                                              <div class="px-4 py-3 text-sm font-semibold text-slate-600 border-b border-slate-200">Messages</div>
+                                    
+                                              <div id="smsThread" class="flex-1 p-4 space-y-3 overflow-auto bg-slate-50"></div>
+                                    
+                                              <div class="p-3 border-t border-slate-200 bg-white">
+                                                <div class="flex items-center justify-between gap-2">
+                                                  <a id="btnOpenSMS" class="inline-flex items-center justify-center px-3 py-2 rounded-lg text-white bg-[#1E3A8A] hover:brightness-110 text-sm" href="#" target="_blank" rel="noopener">Open SMS</a>
+                                                  <button id="btnCopy" class="px-3 py-2 rounded-lg border border-slate-300 text-slate-700 text-sm hover:bg-slate-50">Copy link</button>
+                                                  <button id="btnBack" class="px-3 py-2 rounded-lg border border-slate-300 text-slate-700 text-sm hover:bg-slate-50">Back to call</button>
+                                                </div>
+                                              </div>
+                                            </section>
+                                    
+                                            <div class="h-5 bg-white"></div>
+                                          </div>
+                                        </div>
+                                    
+                                        <!-- Basic audio fallback -->
+                                        <details class="mt-6 group">
+                                          <summary class="cursor-pointer text-sm text-slate-500 group-open:text-slate-700">
+                                            Can’t play? Use the basic audio player
+                                          </summary>
+                                          <div class="mt-3 bg-slate-50 border border-slate-200 rounded-xl p-4 w-[360px] max-w-[92vw]">
+                                            <audio controls preload="auto" src="audio/agent-voice.mp3" class="w-full" playsinline></audio>
+                                          </div>
+                                        </details>
+                                      </div>
+                                    
+                                      <!-- Hidden main track (single recording: agent + caller) -->
+                                      <audio id="callTrack" src="audio/agent-voice.mp3" preload="auto" playsinline crossorigin="anonymous" class="hidden"></audio>
+                                    </section>
+                                    
+                                    <script>
+                                    (() => {
+                                      // Elements
+                                      const call       = document.getElementById('callTrack');
+                                      const btnPlay    = document.getElementById('btnPlay');
+                                      const btnStop    = document.getElementById('btnStop');
+                                      const chkMute    = document.getElementById('chkMute');
+                                      const chkBad     = document.getElementById('chkBad');
+                                      const statusEl   = document.getElementById('status');
+                                      const bar        = document.getElementById('bar');
+                                      const tNow       = document.getElementById('tNow');
+                                      const tDur       = document.getElementById('tDur');
+                                      const screenCall = document.getElementById('screen-call');
+                                      const screenSMS  = document.getElementById('screen-sms');
+                                      const smsThread  = document.getElementById('smsThread');
+                                      const btnOpenSMS = document.getElementById('btnOpenSMS');
+                                      const btnCopy    = document.getElementById('btnCopy');
+                                      const btnBack    = document.getElementById('btnBack');
+                                    
+                                      const BOOK_LINK = 'https://smartcalldecline.com/book/XYZ789';
+                                      const SMS_TEXT  = `Hey, it’s Preferred Air & Cooling. Sounds like a rough line—mind booking here? ${BOOK_LINK}`;
+                                    
+                                      const fmt = s => isFinite(s) ? `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}` : '0:00';
+                                      const setStatus = s => statusEl.textContent = s;
+                                    
+                                      function showCall(){ screenSMS.classList.add('hidden'); screenCall.classList.remove('hidden'); }
+                                                  chkBad.checked = false;                      // <-- uncheck "Simulate bad connection"
+                                                  chkBad.dispatchEvent(new Event('change')); // <-- makes any listeners react to the change
+                                      function showSMS(){
+                                        screenCall.classList.add('hidden'); screenSMS.classList.remove('hidden');
+                                        smsThread.innerHTML = '';
+                                        appendMessage('agent', SMS_TEXT);
+                                        btnOpenSMS.href = `sms:?&body=${encodeURIComponent(SMS_TEXT)}`;
+                                      }
+                                    
+                                      const wait = ms => new Promise(r => setTimeout(r, ms));
+                                      function appendMessage(who, text){
+                                        const wrap = document.createElement('div');
+                                        wrap.className = 'flex ' + (who === 'agent' ? 'justify-end':'justify-start');
+                                        const b = document.createElement('div');
+                                        b.className = 'bubble ' + (who === 'agent' ? 'bubble-agent' : 'bubble-caller');
+                                        b.textContent = text;
+                                        wrap.appendChild(b);
+                                        smsThread.appendChild(wrap);
+                                        smsThread.scrollTop = smsThread.scrollHeight;
+                                      }
+                                    
+                                      // Progress
+                                      let rafId;
+                                      function updateProgress(){
+                                        const dur = call.duration||0, cur = call.currentTime||0;
+                                        tNow.textContent = fmt(cur); tDur.textContent = fmt(dur);
+                                        bar.style.width = (dur ? Math.min(100,(cur/dur)*100) : 0) + '%';
+                                        rafId = requestAnimationFrame(updateProgress);
+                                      }
+                                    
+                                      // Ring
+                                      let audioCtx, ringOsc1, ringOsc2, ringGain, ringTimer;
+                                      function ensureAudio(){ audioCtx ||= new (window.AudioContext||window.webkitAudioContext)(); }
+                                      function ring(ms=1000){
+                                        ensureAudio();
+                                        ringGain = audioCtx.createGain(); ringGain.gain.value=0; ringGain.connect(audioCtx.destination);
+                                        ringOsc1 = audioCtx.createOscillator(); ringOsc1.type='sine'; ringOsc1.frequency.value=440; ringOsc1.connect(ringGain); ringOsc1.start();
+                                        ringOsc2 = audioCtx.createOscillator(); ringOsc2.type='sine'; ringOsc2.frequency.value=480; ringOsc2.connect(ringGain); ringOsc2.start();
+                                        ringGain.gain.linearRampToValueAtTime(0.12, audioCtx.currentTime+0.05);
+                                        ringGain.gain.linearRampToValueAtTime(0, audioCtx.currentTime+ms/1000);
+                                        ringTimer = setTimeout(() => { try{ ringOsc1.stop(); ringOsc2.stop(); }catch{} ringGain.disconnect(); }, ms);
+                                      }
+                                    
+                                      async function warmUp(el){ el.muted=true; try{ await el.play(); }catch{} el.pause(); el.currentTime=0; el.muted=false; }
+                                    
+                                      // Auto-SMS script (runs when "Simulate bad connection" is on)
+                                      const SHOP = 'Preferred Air & Cooling';
+                                      const smsScript = [
+                                        { who: 'agent',  text: `Hey, it’s ${SHOP}. Sounds like a rough line — mind texting?`, delay: 900 },
+                                        { who: 'caller', text: 'Sure. My AC isn’t cooling and there’s a loud humming.',         delay: 1200 },
+                                        { who: 'agent',  text: 'Got it. What ZIP are you in?',                                  delay: 900 },
+                                        { who: 'caller', text: '60623',                                                         delay: 700 },
+                                        { who: 'agent',  text: 'Thanks. I can do tomorrow 10–12 or 2–4. Which works?',         delay: 1100 },
+                                        { who: 'caller', text: '2–4 works.',                                                    delay: 900 },
+                                        { who: 'agent',  text: 'Great—what’s the address?',                                     delay: 900 },
+                                        { who: 'caller', text: '2722 Pennsylvania Ave, Chicago 60623',                          delay: 1100 },
+                                        { who: 'agent',  text: 'Booked for tomorrow 2–4. I’ll text a confirmation link:',       delay: 900 },
+                                        { who: 'agent',  text: 'https://smartcalldecline.com/confirm/ABC123',                   delay: 400 },
+                                        { who: 'caller', text: 'Perfect, thanks!',                                              delay: 700 }
+                                      ];
+                                      let smsRunToken = 0;
+                                      async function runSmsScript(script){
+                                        const my = ++smsRunToken;
+                                        screenCall.classList.add('hidden'); screenSMS.classList.remove('hidden');
+                                        smsThread.innerHTML = '';
+                                        btnOpenSMS.href = `sms:?&body=${encodeURIComponent(script.find(s=>s.who==='agent')?.text||SMS_TEXT)}`;
+                                        for (const step of script){
+                                          if (smsRunToken !== my) return;
+                                          appendMessage(step.who, step.text);
+                                          await wait(step.delay||1000);
+                                        }
+                                      }
+                                      async function doSMSFallback(reason='Connection issue detected.'){
+                                        try { call.pause(); } catch {}
+                                        setStatus(reason);
+                                        await wait(250);
+                                        runSmsScript(smsScript);
+                                      }
+                                    
+                                      // Flow
+                                      async function playDemo(){
+                                        ensureAudio();
+                                        if (audioCtx.state !== 'running') await audioCtx.resume();
+                                        await warmUp(call);
+                                    
+                                        setStatus('Ringing…'); showCall(); ring(1000);
+                                    
+                                        setTimeout(async () => {
+                                          if (chkBad.checked){ await doSMSFallback(); return; }
+                                          setStatus('Playing demo…');
+                                          try { await call.play(); } catch { setStatus('Tap Play to start audio.'); }
+                                        }, 1000);
+                                    
+                                        cancelAnimationFrame(rafId);
+                                        updateProgress();
+                                      }
+                                    
+                                      function stopAll(){
+                                        smsRunToken++;
+                                        try{ call.pause(); call.currentTime=0; }catch{}
+                                        chkBad.checked = false;
+                                        chkBad.dispatchEvent(new Event('change'));
+                                        setStatus('Idle');
+                                        showCall();
+                                      }
+                                    
+                                      // Events
+                                      btnPlay.addEventListener('click', playDemo);
+                                      btnStop.addEventListener('click', stopAll);
+                                      btnBack.addEventListener('click', showCall);
+                                      chkMute.addEventListener('change', () => { call.muted = chkMute.checked; });
+                                      btnCopy.addEventListener('click', async () => {
+                                        try{ await navigator.clipboard.writeText(SMS_TEXT); btnCopy.textContent='Copied!'; setTimeout(()=>btnCopy.textContent='Copy link',1200); }catch{}
+                                      });
+                                      call.addEventListener('loadedmetadata', () => { tDur.textContent = fmt(call.duration); });
+                                      call.addEventListener('ended', () => { setStatus('Finished.'); });
+                                    
+                                      // Init
+                                      showCall(); setStatus('Idle'); updateProgress();
+                                    })();
+                                    </script>
+                                    <!-- === END: Smart Call Decline — Phone Demo === -->
+<!-- Spacer between sections -->
+<div class="h-10 md:h-14"></div>
+
+              
+    <!-- Get Early Access-->
+                <section id="pricing" class="bg-[#eef5ff] border-t border-slate-200 pt-16 md:pt-20 pb-24 md:pb-32">
+  <div class="max-w-3xl mx-auto px-4">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div class="text-center mb-16">
+            <h1 class="text-5xl md:text-5xl font-bold text-contractor-orange mb-8">
+              Get Early Access
+            </h1>
+            <h2 class="text-3xl md:text-4xl font-bold text-contractor-navy">
+              Ready to Stop Missing Revenue?
+            </h2>
+
+            </div>
+            
+            <div class="max-w-md mx-auto">
+                <div class="bg-white rounded-lg shadow-lg p-8 text-center">
+                    <div class="mb-6">
+                        <img src="Hero Emoji.png" alt="Smart Call Decline Hero" class="w-20 h-20 mx-auto">
+                    </div>
+                    <h3 class="text-2xl font-bold text-contractor-navy mb-6">Be First in Line</h3>
+                      <!-- Your form -->  
+  <form id="WaitlistForm" class="space-y-4">
+                        <div>
+                            <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-contractor-orange focus:border-transparent outline-none" required>
+                        </div>
+                        <div>
+                            <input type="email" name="email" placeholder="Your best email…" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-contractor-orange focus:border-transparent outline-none" required>
+                        </div>
+                        <div>
+                            <input type="tel" name="phone" placeholder="Phone number (optional)" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-contractor-orange focus:border-transparent outline-none">
+                        </div>
+                        <div>
+                            <select name="trade" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-contractor-orange focus:border-transparent outline-none" required>
+                                </div>
+                                <option value="">Select Your Trade</option>
+                                <option value="Handyman">Handyman</option>
+                                <option value="HVAC">HVAC</option>
+                                <option value="Electrician">Electrician</option>
+                                <option value="Plumber">Plumber</option>
+                                <option value="Carpenter">Carpenter</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        
+                        <button type="submit" style="margin-top: 16px;" class="w-full bg-contractor-orange hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg hover-lift transition-all duration-200">
+                            GET EARLY ACCESS
+                        </button>
+                    </form> 
+                 
+                    <p class="text-xs text-contractor-gray mt-4">No spam. Just one heads-up.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-contractor-navy mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-contractor-gray">Everything you need to know about Smart Call Decline.</p>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="bg-gray-50 rounded-lg p-6">
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-3">Will this replace my existing booking app?</h3>
+                    <p class="text-contractor-gray">No, it works alongside your current tools. Smart Call Decline captures leads and syncs with your existing calendar and booking system. It's designed to fill the gap when you can't answer calls on-site.</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6">
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-3">Does it work on any smartphone?</h3>
+                    <p class="text-contractor-gray">Yes, it works with any smartphone and carrier. No special app required. We integrate with your existing phone service to handle call routing and SMS responses automatically.</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6">
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-3">Is my data secure?</h3>
+                    <p class="text-contractor-gray">Absolutely. We use bank-level encryption and never store sensitive customer information. All lead data is processed securely and can be deleted at any time. We're fully GDPR compliant.</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6">
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-3">What if I need to take an emergency call?</h3>
+                    <p class="text-contractor-gray">You can easily toggle the system on/off or set up emergency bypass numbers (like family or existing customers). The system is designed to be flexible around your real needs.</p>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg p-6">
+                    <h3 class="text-lg font-semibold text-contractor-navy mb-3">How quickly can I get started?</h3>
+                    <p class="text-contractor-gray">Setup takes about 60 seconds. You'll answer a few questions about your business, we'll configure your SMS responses, and you're ready to capture leads immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Footer CTA -->
+    <div class="sticky-cta bg-contractor-navy shadow-2xl relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <button id="close-banner" class="absolute top-2 right-4 text-white hover:text-contractor-orange text-xl font-bold">
+                ×
+            </button>
+            <div class="flex flex-col sm:flex-row items-center justify-between">
+                <div class="text-white mb-4 sm:mb-0">
+                    <div class="font-semibold">Never miss another lead</div>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#pricing" class="bg-contractor-orange hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg hover-lift transition-all duration-200 inline-block">
+                        Get Early Access
+                    </a>
+                    <p class="text-sm text-blue-200 mt-2 mb-4">Beta capped at 20 contractors</p>
+                    <p class="text-sm text-blue-200">No credit card required • Setup in 60 seconds</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-2xl font-bold mb-4">Smart Call Decline</div>
+                    <p class="text-gray-300">The contractor lead capture solution that works while you work.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="/home#how-it-works" class="hover:text-white">How It Works</a></li>
+                        <li><a href="/home#benefits" class="hover:text-white">Features</a></li>
+                        <li><a href="/home#pricing" class="hover:text-white">Pricing</a></li>
+                        <li><a href="/demo" class="hover:text-white">Demo</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white">Help Center</a></li>
+                        <li><a href="/contact_us" class="hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white">Setup Guide</a></li>
+                        <li><a href="/home#faq" class="hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white">About Us</a></li>
+                        <li><a href="/privacy" class="hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-white">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Smart Call Decline. All rights reserved. Built for contractors, by contractors.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
+                if (href === '#') {
+                    // Scroll to top for plain # links
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    // Smooth scroll to target element for valid selectors
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Fade in animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Hide sticky CTA when at bottom
+        window.addEventListener('scroll', () => {
+            const footer = document.querySelector('footer');
+            const stickyCTA = document.querySelector('.sticky-cta');
+            const footerRect = footer.getBoundingClientRect();
+            
+            if (footerRect.top <= window.innerHeight) {
+                stickyCTA.style.display = 'none';
+            } else {
+                stickyCTA.style.display = 'block';
+            }
+        });
+
+        // Interactive Demo Functionality
+        let currentStep = 0;
+        let currentLanguage = 'en';
+        const demoSteps = [
+            'screen-initial',
+            'screen-call', 
+            'screen-declined',
+            'screen-sms',
+            'screen-form',
+            'screen-notification',
+            'screen-reminder'
+        ];
+
+        // Language translations
+        const translations = {
+            en: {
+                phoneTitle: 'Your Phone',
+                phoneSubtitle: "You're on a job site, hands full...",
+                startBtn: 'Start Demo',
+                callerName: 'Sarah Johnson',
+                incomingText: 'Incoming call...',
+                declinedTitle: 'Call Automatically Declined',
+                declinedSubtitle: 'Professional SMS being sent...',
+                messagesHeader: 'Messages with Sarah Johnson',
+                smsMessage: "Hi Sarah! I'm currently on a job site but want to help you right away. Please fill out this quick form so I can call you back: smartcalldecline.com/form/abc123",
+                deliveredText: 'Delivered',
+                formHeader: "Quick Job Details - Mike's Handyman",
+                formNameLabel: 'Name',
+                formNameValue: 'Sarah Johnson',
+                formAddressLabel: 'Address',
+                formAddressValue: '123 Oak Street',
+                formJobLabel: 'Job Description',
+                formJobValue: 'Kitchen faucet leaking, needs repair',
+                formTimeLabel: 'Best time to call back',
+                formTimeValue: 'Tomorrow 2-4 PM',
+                formSubmitted: '✓ Form Submitted',
+                messagesTitle: 'Messages',
+                leadCapturedText: 'New lead captured!',
+                leadName: 'Sarah Johnson',
+                leadJob: 'Kitchen faucet repair',
+                leadCallback: 'Callback: Tomorrow 2-4 PM',
+                justNowText: 'Just now',
+                hoursAgoText: '2 hours ago',
+                reminderText: 'Reminder: Call back Sarah Johnson',
+                reminderJob: 'Kitchen faucet repair',
+                reminderTime: 'Preferred time: Tomorrow 2-4 PM'
+            },
+            es: {
+                phoneTitle: 'Tu Teléfono',
+                phoneSubtitle: 'Estás en una obra, con las manos ocupadas...',
+                startBtn: 'Iniciar Demo',
+                callerName: 'María González',
+                incomingText: 'Llamada entrante...',
+                declinedTitle: 'Llamada Rechazada Automáticamente',
+                declinedSubtitle: 'Enviando SMS profesional...',
+                messagesHeader: 'Mensajes con María González',
+                smsMessage: '¡Hola María! Estoy en una obra pero quiero ayudarte de inmediato. Por favor completa este formulario rápido para que pueda llamarte: smartcalldecline.com/form/abc123',
+                deliveredText: 'Entregado',
+                formHeader: 'Detalles del Trabajo - Servicios Miguel',
+                formNameLabel: 'Nombre',
+                formNameValue: 'María González',
+                formAddressLabel: 'Dirección',
+                formAddressValue: 'Calle Roble 123',
+                formJobLabel: 'Descripción del Trabajo',
+                formJobValue: 'Grifo de cocina goteando, necesita reparación',
+                formTimeLabel: 'Mejor hora para llamar',
+                formTimeValue: 'Mañana 2-4 PM',
+                formSubmitted: '✓ Formulario Enviado',
+                messagesTitle: 'Mensajes',
+                leadCapturedText: '¡Nuevo cliente capturado!',
+                leadName: 'María González',
+                leadJob: 'Reparación grifo cocina',
+                leadCallback: 'Llamar: Mañana 2-4 PM',
+                justNowText: 'Ahora mismo',
+                hoursAgoText: 'Hace 2 horas',
+                reminderText: 'Recordatorio: Llamar a María González',
+                reminderJob: 'Reparación grifo cocina',
+                reminderTime: 'Hora preferida: Mañana 2-4 PM'
+            },
+            pl: {
+                phoneTitle: 'Twój Telefon',
+                phoneSubtitle: 'Jesteś na budowie, masz zajęte ręce...',
+                startBtn: 'Rozpocznij Demo',
+                callerName: 'Anna Kowalska',
+                incomingText: 'Połączenie przychodzące...',
+                declinedTitle: 'Połączenie Automatycznie Odrzucone',
+                declinedSubtitle: 'Wysyłanie profesjonalnego SMS-a...',
+                messagesHeader: 'Wiadomości z Anna Kowalska',
+                smsMessage: 'Cześć Anna! Jestem obecnie na budowie, ale chcę Ci od razu pomóc. Proszę wypełnij ten szybki formularz, abym mógł do Ciebie oddzwonić: smartcalldecline.com/form/abc123',
+                deliveredText: 'Dostarczono',
+                formHeader: 'Szczegóły Pracy - Usługi Michała',
+                formNameLabel: 'Imię',
+                formNameValue: 'Anna Kowalska',
+                formAddressLabel: 'Adres',
+                formAddressValue: 'ul. Dębowa 123',
+                formJobLabel: 'Opis Pracy',
+                formJobValue: 'Kran w kuchni przecieka, wymaga naprawy',
+                formTimeLabel: 'Najlepszy czas na telefon',
+                formTimeValue: 'Jutro 14-16',
+                formSubmitted: '✓ Formularz Wysłany',
+                messagesTitle: 'Wiadomości',
+                leadCapturedText: 'Nowy klient przechwycony!',
+                leadName: 'Anna Kowalska',
+                leadJob: 'Naprawa kranu kuchennego',
+                leadCallback: 'Oddzwonić: Jutro 14-16',
+                justNowText: 'Teraz',
+                hoursAgoText: '2 godziny temu',
+                reminderText: 'Przypomnienie: Oddzwoń do Anna Kowalska',
+                reminderJob: 'Naprawa kranu kuchennego',
+                reminderTime: 'Preferowany czas: Jutro 14-16'
+            }
+        };
+
+        // Update demo content based on selected language
+        function updateDemoLanguage(lang) {
+            currentLanguage = lang;
+            const t = translations[lang];
+            
+            // Update all text elements
+            document.getElementById('phone-title').textContent = t.phoneTitle;
+            document.getElementById('phone-subtitle').textContent = t.phoneSubtitle;
+            document.getElementById('start-btn-text').textContent = t.startBtn;
+            document.getElementById('caller-name').textContent = t.callerName;
+            document.getElementById('incoming-text').textContent = t.incomingText;
+            document.getElementById('declined-title').textContent = t.declinedTitle;
+            document.getElementById('declined-subtitle').textContent = t.declinedSubtitle;
+            document.getElementById('messages-header').textContent = t.messagesHeader;
+            document.getElementById('sms-message').textContent = t.smsMessage;
+            document.getElementById('delivered-text').textContent = t.deliveredText;
+            document.getElementById('form-header').textContent = t.formHeader;
+            document.getElementById('form-name-label').textContent = t.formNameLabel;
+            document.getElementById('form-name-value').textContent = t.formNameValue;
+            document.getElementById('form-address-label').textContent = t.formAddressLabel;
+            document.getElementById('form-address-value').textContent = t.formAddressValue;
+            document.getElementById('form-job-label').textContent = t.formJobLabel;
+            document.getElementById('form-job-value').textContent = t.formJobValue;
+            document.getElementById('form-time-label').textContent = t.formTimeLabel;
+            document.getElementById('form-time-value').textContent = t.formTimeValue;
+            document.getElementById('form-submitted').textContent = t.formSubmitted;
+            document.getElementById('messages-title').textContent = t.messagesTitle;
+            document.getElementById('messages-title-2').textContent = t.messagesTitle;
+            document.getElementById('lead-captured-text').textContent = t.leadCapturedText;
+            document.getElementById('lead-captured-text-2').textContent = t.leadCapturedText;
+            document.getElementById('lead-name').textContent = t.leadName;
+            document.getElementById('lead-name-2').textContent = t.leadName;
+            document.getElementById('lead-job').textContent = t.leadJob;
+            document.getElementById('lead-job-2').textContent = t.leadJob;
+            document.getElementById('lead-callback').textContent = t.leadCallback;
+            document.getElementById('lead-callback-2').textContent = t.leadCallback;
+            document.getElementById('just-now-text').textContent = t.justNowText;
+            document.getElementById('just-now-text-2').textContent = t.justNowText;
+            document.getElementById('hours-ago-text').textContent = t.hoursAgoText;
+            document.getElementById('reminder-text').textContent = t.reminderText;
+            document.getElementById('reminder-job').textContent = t.reminderJob;
+            document.getElementById('reminder-time').textContent = t.reminderTime;
+        }
+
+        // Language button handlers
+        document.getElementById('lang-en').addEventListener('click', function() {
+            updateDemoLanguage('en');
+            updateActiveLanguageButton('lang-en');
+        });
+
+        document.getElementById('lang-es').addEventListener('click', function() {
+            updateDemoLanguage('es');
+            updateActiveLanguageButton('lang-es');
+        });
+
+        document.getElementById('lang-pl').addEventListener('click', function() {
+            updateDemoLanguage('pl');
+            updateActiveLanguageButton('lang-pl');
+        });
+
+        function updateActiveLanguageButton(activeId) {
+            // Remove active class from all buttons
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active', 'bg-contractor-orange', 'text-white');
+                btn.classList.add('text-contractor-orange', 'bg-white');
+            });
+            
+            // Add active class to selected button
+            const activeBtn = document.getElementById(activeId);
+            activeBtn.classList.add('active', 'bg-contractor-orange', 'text-white');
+            activeBtn.classList.remove('text-contractor-orange', 'bg-white');
+        }
+
+        function showDemoStep(stepIndex) {
+            // Hide all screens
+            document.querySelectorAll('.demo-screen').forEach(screen => {
+                screen.classList.add('hidden');
+            });
+            
+            // Show current screen
+            if (stepIndex < demoSteps.length) {
+                document.getElementById(demoSteps[stepIndex]).classList.remove('hidden');
+            }
+            
+            // Update progress indicators
+            document.querySelectorAll('[id^="progress-"]').forEach((dot, index) => {
+                if (index < stepIndex) {
+                    dot.className = 'w-3 h-3 bg-contractor-orange rounded-full';
+                } else {
+                    dot.className = 'w-3 h-3 bg-gray-300 rounded-full';
+                }
+            });
+        }
+
+        function startDemo() {
+            currentStep = 1;
+            showDemoStep(currentStep);
+            
+            // Auto-advance through demo steps
+            const intervals = [7000, 7000, 7000, 7000, 7000, 7000]; // 7 seconds for each step
+            
+            intervals.forEach((delay, index) => {
+                setTimeout(() => {
+                    currentStep = index + 2;
+                    if (currentStep < demoSteps.length) {
+                        showDemoStep(currentStep);
+                    }
+                }, intervals.slice(0, index + 1).reduce((sum, interval) => sum + interval, 0));
+            });
+        }
+
+        function restartDemo() {
+            currentStep = 0;
+            showDemoStep(currentStep);
+        }
+
+        // Event listeners
+        document.getElementById('start-demo-btn').addEventListener('click', startDemo);
+        document.getElementById('restart-demo').addEventListener('click', restartDemo);
+
+        // Initialize demo
+        showDemoStep(0);
+      </script>
+           <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('WaitlistForm');
+  if (form) {
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+      const name = (formData.get('name') || '').trim();
+      const email = (formData.get('email') || '').trim();
+      const phone = (formData.get('phone') || '').trim();
+      const trade = formData.get('trade') || '';
+
+      if (!name || !email || !trade) {
+        alert('Please fill out all fields.');
+        return;
+      }
+
+      const submitButton = form.querySelector('button[type="submit"]');
+      submitButton.disabled = true;
+      submitButton.textContent = 'Submitting...';
+
+      try {
+        const res = await fetch('https://n8n.srv937025.hstgr.cloud/webhook/waitlist-bolt', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'ngrok-skip-browser-warning': 'true',
+            'x-api-key': 'RJ12345df!',
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            phone,
+            trade,
+            timestamp: new Date().toISOString(),
+            source: 'index_page'
+          })
+        });
+
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+        // Redirect to thank-you page
+        window.location.href =
+          `thank-you.html?email=${encodeURIComponent(email)}&name=${encodeURIComponent(name)}&trade=${encodeURIComponent(trade)}`;
+      } catch (err) {
+        console.error(err);
+        alert('Submission failed. Please try again.');
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = 'GET EARLY ACCESS';
+      }
+    });
+  }
+
+  // Mobile menu toggle
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (mobileMenuButton && mobileMenu) {
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    document.addEventListener('click', (event) => {
+      if (!mobileMenuButton.contains(event.target) && !mobileMenu.contains(event.target)) {
+        mobileMenu.classList.add('hidden');
+      }
+    });
+  }
+
+  // Close sticky banner
+  const closeBanner = document.getElementById('close-banner');
+  if (closeBanner) {
+    closeBanner.addEventListener('click', function () {
+      document.querySelector('.sticky-cta').style.display = 'none';
+    });
+  }
+});
+</script>
+
+
+
+            <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17391803655"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){ dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'AW-17391803655');
+            </script>
+            
+   
+
+</body>
+</html>
