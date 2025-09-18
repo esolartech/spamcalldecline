@@ -132,238 +132,152 @@
         </div>
     </nav>
 
-<!-- Hero Section — SPAM / Unwanted Calls -->
-<section class="bg-gradient-to-br from-[#325ef1] to-[#2272ff] relative isolate overflow-hidden">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+<!-- Spam Calls Hero Section -->
+<section class="bg-gradient-to-br from-[#2a56ff] to-[#1e66ff] relative isolate overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+    <!-- 2 columns on md+, stacked on mobile -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-start">
 
-      <!-- LEFT: Headline + Stepper -->
+      <!-- LEFT: Headline + Steps + CTAs -->
       <div class="text-white">
         <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Stop wasting time on <span id="heroSpamSavings" class="tabular-nums">$1,600</span> worth of
-          SPAM, SALES & WRONG-NUMBER calls
+          Stop wasting time on <span id="headlineDollars" class="tabular-nums">$333</span> worth of <span class="whitespace-nowrap">SPAM, SALES</span> & <span class="whitespace-nowrap">WRONG-NUMBER</span> calls
         </h1>
-
-        <p class="text-xl mb-8 text-blue-100">
-          Your AI call screener filters junk in seconds, blocks time-wasters, and only lets real customers through.
+        <p class="text-lg md:text-xl text-blue-100 max-w-xl mb-8">
+          Your AI call screener filters junk in seconds, blocks time‑wasters, and only lets real customers through.
         </p>
 
-        <!-- Stepper card -->
-        <div class="relative mt-8 w-full max-w-xl rounded-2xl overflow-hidden shadow-lg
-                    ring-1 ring-white/20 bg-white/10 px-6 py-5">
-          <div class="pointer-events-none absolute inset-x-0 top-0 h-32 md:h-36
-                      backdrop-blur-[8px] [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
+        <!-- Steps Card -->
+        <div class="bg-white/10 backdrop-blur rounded-2xl border border-white/15 p-5 md:p-6 space-y-4 md:space-y-5 mb-8">
+          <div class="flex gap-3">
+            <div class="h-8 w-8 shrink-0 grid place-items-center rounded-full bg-white/15 border border-white/25 text-sm font-semibold">1</div>
+            <p class="text-white/95">Ring → AI screens in <span class="font-semibold">&lt;12s</span> (CNAM, patterns, blacklist)</p>
+          </div>
+          <div class="flex gap-3">
+            <div class="h-8 w-8 shrink-0 grid place-items-center rounded-full bg-white/15 border border-white/25 text-sm font-semibold">2</div>
+            <p class="text-white/95">Suspected spam? <span class="font-semibold">Auto‑block</span> or divert to voicemail</p>
+          </div>
+          <div class="flex gap-3">
+            <div class="h-8 w-8 shrink-0 grid place-items-center rounded-full bg-white/15 border border-white/25 text-sm font-semibold">3</div>
+            <p class="text-white/95">Real customer? Collects <span class="font-semibold">job + ZIP</span>, then passes through</p>
+          </div>
+          <div class="flex gap-3">
+            <div class="h-8 w-8 shrink-0 grid place-items-center rounded-full bg-white/15 border border-white/25 text-sm font-semibold">4</div>
+            <p class="text-white/95">Text + email summary so you can focus on paying work</p>
+          </div>
+        </div>
 
-          <ol role="list" class="relative space-y-4 md:space-y-5 text-white">
-            <div class="pointer-events-none absolute left-3 top-0 h-full w-px bg-white/20 md:left-3.5"></div>
-
-            <li class="relative flex items-start gap-3 md:gap-4">
-              <span class="z-10 inline-flex h-7 w-7 md:h-8 md:w-8 shrink-0 items-center justify-center
-                           rounded-full bg-white/15 ring-1 ring-white/30 font-semibold">1</span>
-              <div class="text-base md:text-[1.05rem] font-medium leading-snug">
-                Ring → AI screens in ≤12s (CNAM, patterns, blacklist)
-              </div>
-            </li>
-
-            <li class="relative flex items-start gap-3 md:gap-4">
-              <span class="z-10 inline-flex h-7 w-7 md:h-8 md:w-8 shrink-0 items-center justify-center
-                           rounded-full bg-white/15 ring-1 ring-white/30 font-semibold">2</span>
-              <div class="text-base md:text-[1.05rem] font-medium leading-snug">
-                Suspected spam? Auto-block or divert to voicemail
-              </div>
-            </li>
-
-            <li class="relative flex items-start gap-3 md:gap-4">
-              <span class="z-10 inline-flex h-7 w-7 md:h-8 md:w-8 shrink-0 items-center justify-center
-                           rounded-full bg-white/15 ring-1 ring-white/30 font-semibold">3</span>
-              <div class="text-base md:text-[1.05rem] font-medium leading-snug">
-                Real customer? Collects job + ZIP, then passes through
-              </div>
-            </li>
-
-            <li class="relative flex items-start gap-3 md:gap-4">
-              <span class="z-10 inline-flex h-7 w-7 md:h-8 md:w-8 shrink-0 items-center justify-center
-                           rounded-full bg-white/15 ring-1 ring-white/30 font-semibold">4</span>
-              <div class="text-base md:text-[1.05rem] font-medium leading-snug">
-                Text + email summary so you can focus on paying work
-              </div>
-            </li>
-          </ol>
+        <!-- CTAs -->
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="#demo" class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-white text-[#1e66ff] font-semibold shadow hover:shadow-md transition">Watch Demo</a>
+          <a href="#cta" class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-[#ff7a00] text-white font-semibold shadow hover:shadow-md transition">Get Early Access</a>
         </div>
       </div>
 
-      <!-- RIGHT: Spam cost calculator -->
-      <aside class="w-full">
-        <div class="w-full max-w-md lg:ml-auto lg:mr-0 rounded-2xl overflow-hidden shadow-lg
-                    bg-white text-blue-900 px-6 py-5">
-          <header class="text-left mb-4 md:mb-6">
-            <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-blue-700">
-              Monthly Time Lost to SPAM
-            </h2>
-            <p class="mt-2 text-base md:text-lg text-slate-600 leading-relaxed">
-              Filter junk instantly → save hours → focus on real jobs.
-            </p>
-          </header>
+      <!-- RIGHT: Calculator Card -->
+      <div class="max-md:order-first">
+        <div class="bg-white rounded-2xl shadow-xl p-6 md:p-7">
+          <h2 class="text-2xl font-bold text-[#0b2a6f]">Monthly Time Lost to SPAM</h2>
+          <p class="text-slate-600 mt-1 mb-6">Filter junk instantly → save hours → focus on real jobs.</p>
 
-          <!-- Blue calculator panel -->
-          <section id="spamCalc"
-                   class="rounded-2xl bg-gradient-to-r from-contractor-navy to-blue-600 p-5 md:p-7 text-white">
-
-            <!-- Spam calls per day -->
+          <!-- Controls -->
+          <div class="space-y-6" id="spamCalc">
+            <!-- calls/day -->
             <div>
-              <label for="spamPerDay"
-                     class="flex items-center justify-between font-semibold text-white text-xl md:text-1xl">
-                <span>Spam / junk calls per day</span>
-                <span id="spamPerDayVal" class="tabular-nums opacity-90 text-xl md:text-1xl">2</span>
-              </label>
-              <input id="spamPerDay" type="range" min="0" max="20" step="1" value="2">
-            </div>
-
-            <!-- Avg duration -->
-            <div class="mt-5">
-              <label for="avgMinutes"
-                     class="flex items-center justify-between font-semibold text-white text-xl md:text-1xl">
-                <span>Average minutes wasted</span>
-                <span id="avgMinutesVal" class="tabular-nums opacity-90 text-xl md:text-1xl">5 min</span>
-              </label>
-              <input id="avgMinutes" type="range" min="1" max="20" step="1" value="5">
-            </div>
-
-            <!-- Hourly rate -->
-            <div class="mt-5">
-              <label for="hourlyRate"
-                     class="flex items-center justify-between font-semibold text-white text-xl md:text-1xl">
-                <span>Your time value (hourly)</span>
-                <span id="hourlyRateVal" class="tabular-nums opacity-90 text-xl md:text-1xl">$100</span>
-              </label>
-              <input id="hourlyRate" type="range" min="25" max="300" step="5" value="100">
-            </div>
-
-            <!-- Work days -->
-            <div class="mt-5">
-              <label for="workDaysSpam"
-                     class="flex items-center justify-between font-semibold text-white text-xl md:text-1xl">
-                <span>WorkDays per month</span>
-                <span id="workDaysSpamVal" class="tabular-nums opacity-90 text-xl md:text-1xl">20</span>
-              </label>
-              <input id="workDaysSpam" type="range" min="2" max="26" step="1" value="20">
-            </div>
-
-            <!-- Result box -->
-            <div class="mt-6 rounded-xl border border-white/30 bg-white/10 backdrop-blur p-4 sm:p-5">
-              <div class="flex items-center justify-between gap-4">
-                <div class="text-white font-bold text-2xl leading-tight flex items-start shrink-0">
-                  <span>Potential<br>Time & Money<br>Wasted</span>
-                  <span class="relative group ml-2">
-                    <sup class="relative -top-1 inline-flex items-center justify-center w-4 h-4 rounded-full
-                               border border-white/70 text-[10px] leading-none text-white/90 cursor-help"
-                         title="Formula: spam/day × workdays × (minutes÷60) × hourly rate">i</sup>
-                  </span>
-                </div>
-                <div class="flex flex-col items-end sm:text-right text-white shrink-0" aria-live="polite">
-                  <strong id="spamTotalWaste" class="text-3xl font-extrabold tabular-nums">$1,600</strong>
-                  <span id="spamHours" class="mt-1 text-sm text-white/90 leading-tight">≈ 16 hours/mo</span>
-                </div>
+              <div class="flex items-center justify-between mb-1">
+                <label class="font-medium text-slate-800">Spam / junk calls per day</label>
+                <span class="text-slate-700 tabular-nums" id="callsDayVal">2</span>
               </div>
+              <input id="callsDay" type="range" min="0" max="20" step="1" value="2" class="w-full accent-[#1e66ff]">
             </div>
 
-            <!-- Slider cosmetics (reuse your orange/white style) -->
-            <style>
-              #spamCalc input[type="range"]{ width:100%; margin-top:.5rem; }
-              #spamCalc input[type="range"]{
-                -webkit-appearance:none; appearance:none;
-                --track-h: 12px; --fill:#F97316; --empty:#FFFFFF; --r:9999px;
-                height: var(--track-h);
-                background:
-                  linear-gradient(90deg,var(--fill),var(--fill)) 0/ var(--sx,0%) 100% no-repeat,
-                  var(--empty);
-                border-radius: var(--r);
-                outline: none;
-              }
-              #spamCalc input[type="range"]::-webkit-slider-runnable-track{ height:var(--track-h); background:transparent!important; border-radius:var(--r); }
-              #spamCalc input[type="range"]::-webkit-slider-thumb{
-                -webkit-appearance:none; width:22px; height:22px; border-radius:50%;
-                background: var(--fill); border:3px solid #fff; box-shadow:0 0 0 2px rgba(0,0,0,.08);
-                margin-top: calc((var(--track-h) - 22px)/2);
-              }
-              #spamCalc input[type="range"]::-moz-range-track{ height:var(--track-h); background:var(--empty)!important; border-radius:var(--r); }
-              #spamCalc input[type="range"]::-moz-range-progress{ height:var(--track-h); background:var(--fill)!important; border-radius:var(--r); }
-              #spamCalc input[type="range"]::-moz-range-thumb{
-                width:22px; height:22px; border-radius:50%;
-                background: var(--fill); border:3px solid #fff; box-shadow:0 0 0 2px rgba(0,0,0,.08);
-              }
-            </style>
-
-            <!-- Logic -->
-            <script>
-              (function(){
-                const $ = id => document.getElementById(id);
-                const fmtUSD = new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
-
-                const spam   = $('spamPerDay');
-                const mins   = $('avgMinutes');
-                const rate   = $('hourlyRate');
-                const days   = $('workDaysSpam');
-
-                const spamV  = $('spamPerDayVal');
-                const minsV  = $('avgMinutesVal');
-                const rateV  = $('hourlyRateVal');
-                const daysV  = $('workDaysSpamVal');
-
-                const total  = $('spamTotalWaste');
-                const hours  = $('spamHours');
-                const hero   = document.getElementById('heroSpamSavings'); // optional headline sync
-
-                const sliders = [spam, mins, rate, days];
-
-                function paint(el){
-                  const min = +el.min || 0, max = +el.max || 100, val = +el.value || 0;
-                  el.style.setProperty('--sx', ((val - min) * 100) / (max - min) + '%');
-                }
-
-                function render(){
-                  spamV.textContent = +spam.value;
-                  minsV.textContent = `${+mins.value} min`;
-                  rateV.textContent = fmtUSD.format(+rate.value);
-                  daysV.textContent = +days.value;
-
-                  const totalMinutes = (+spam.value) * (+days.value) * (+mins.value);
-                  const totalHours   = totalMinutes / 60;
-                  const moneyWasted  = totalHours * (+rate.value);
-
-                  total.textContent  = fmtUSD.format(moneyWasted);
-                  hours.textContent  = `≈ ${Math.round(totalHours*10)/10} hours/mo`;
-                  if (hero) hero.textContent = fmtUSD.format(moneyWasted);
-
-                  sliders.forEach(paint);
-                }
-
-                sliders.forEach(el => el.addEventListener('input', render));
-                sliders.forEach(paint);
-                render();
-              })();
-            </script>
-          </section>
-
-          <!-- Buttons -->
-          <div class="mt-6 pt-5 border-t border-slate-200/70">
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-              <a href="#scd-demo"
-                 class="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white
-                        bg-blue-600 hover:bg-blue-700 shadow-md">Watch Demo</a>
-              <a href="#pricing"
-                 class="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white
-                        bg-orange-500 hover:bg-orange-600 shadow-md">Get Early Access</a>
+            <!-- minutes wasted -->
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <label class="font-medium text-slate-800">Average minutes wasted</label>
+                <span class="text-slate-700 tabular-nums" id="minsVal">5 min</span>
+              </div>
+              <input id="mins" type="range" min="1" max="15" step="1" value="5" class="w-full accent-[#1e66ff]">
             </div>
-            <p class="mt-3 text-center text-xs text-slate-500">Beta capped at 20 contractors</p>
-            <p class="mt-1 text-center text-xs text-slate-500">No app to install • Works with your current number • Cancel anytime</p>
+
+            <!-- hourly value -->
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <label class="font-medium text-slate-800">Your time value (hourly)</label>
+                <span class="text-slate-700 tabular-nums" id="rateVal">$100</span>
+              </div>
+              <input id="rate" type="range" min="20" max="250" step="5" value="100" class="w-full accent-[#1e66ff]">
+            </div>
+
+            <!-- workdays -->
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <label class="font-medium text-slate-800">WorkDays per month</label>
+                <span class="text-slate-700 tabular-nums" id="daysVal">20</span>
+              </div>
+              <input id="days" type="range" min="10" max="26" step="1" value="20" class="w-full accent-[#1e66ff]">
+            </div>
+          </div>
+
+          <!-- Result -->
+          <div class="mt-6 p-4 md:p-5 rounded-xl bg-[#0b2a6f] text-white">
+            <div class="text-sm uppercase tracking-wide text-white/80">Potential Time & Money Wasted</div>
+            <div class="mt-2 flex items-end gap-3">
+              <div class="text-3xl font-extrabold tabular-nums" id="moneyOut">$333</div>
+              <div class="text-white/80 text-sm" id="hoursOut">≈ 3.3 hours/mo</div>
+            </div>
           </div>
         </div>
-      </aside>
-
+      </div>
     </div>
   </div>
 </section>
+
+<script>
+(function(){
+  const $ = (id) => document.getElementById(id);
+  const callsDay = $("callsDay");
+  const mins = $("mins");
+  const rate = $("rate");
+  const days = $("days");
+
+  const callsDayVal = $("callsDayVal");
+  const minsVal = $("minsVal");
+  const rateVal = $("rateVal");
+  const daysVal = $("daysVal");
+
+  const moneyOut = $("moneyOut");
+  const hoursOut = $("hoursOut");
+  const headlineDollars = $("headlineDollars");
+
+  function fmtUSD(n){
+    return new Intl.NumberFormat(undefined,{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+  }
+  function fmtHours(h){
+    return `≈ ${h.toFixed(1)} hours/mo`;
+  }
+  function recalc(){
+    // update labels
+    callsDayVal.textContent = callsDay.value;
+    minsVal.textContent = `${mins.value} min`;
+    rateVal.textContent = fmtUSD(Number(rate.value));
+    daysVal.textContent = days.value;
+
+    // compute
+    const hours = (Number(callsDay.value) * Number(mins.value) * Number(days.value)) / 60;
+    const money = hours * Number(rate.value);
+
+    moneyOut.textContent = fmtUSD(money);
+    hoursOut.textContent = fmtHours(hours);
+
+    // mirror into headline amount for punch
+    headlineDollars.textContent = fmtUSD(money);
+  }
+
+  [callsDay, mins, rate, days].forEach(el=> el.addEventListener('input', recalc));
+  recalc();
+})();
+</script>
 
                                          <!-- How It Works — Voice Assistant -->
                                     <section id="voice-assistant" class="py-20 bg-white">
